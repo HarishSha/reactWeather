@@ -6,6 +6,10 @@ var Weather = require('Weather');
 var About = require('About');
 var Example = require('Example');
 
+//load foundation
+require('style!css!foundation-sites/dist/foundation.min.css');
+$(document).foundation();
+
 var obj1 = {
     name: 'Harish',
     location: 'Gurgaon'
